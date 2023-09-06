@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*----------------------------------------------------------------------INICIO-----------------------------------------------------------------------*/
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #08bb85;
+    z-index: 1;
+    top: 0;
+}
+body{
+    margin-top: 160px;
+    background: #fff;
+}
+.logo{
+    max-width: 105px;
+    margin: 15px;
+    border-radius: 20px;
+    margin: 20px;
+    width: 700px;
+    border-radius: 10px;
+    float: left;
+}
+#Titulo{
+    font-size: 40px;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+}
+/*------------------------------------NAV-------------------------------------------------*/
+.nav-link {
+    color: #000000;
+    transition: color 0.3s;
+    margin: 10px;
+    right: 0;
+}
+.navbar-brand{
+	font-size: 18px;
+    color: #000;
+}
+.navbar-brand ul{
+    list-style: none;
+}
+.navbar-nav > li{
+    position: relative;
+	display: inline-block;
+}
+.navbar-nav > li > a{
+	display: block;
+	padding: 15px 20px;
+	color:#fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+.navbar-nav li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+.link{
+    transition: transform 0.3s;
+}
+.link:hover {
+    transform: scale(1.3);
+}
+.submenu{
+	position: absolute;
+	background: #333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a{
+	display: block;
+	padding: 15px;
+    font-size: 14px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+	margin-right: 10px;
+	transition: opacity 1.5s;
+}
+.navbar-nav li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+/*---------------------------------------------------------TERMINA EL NAV-------------------------------------------------------------*/
+
+/*---------------------------------------------------------CARRUSEL------------------------------------------------------------------*/
+.carrousel{
+    width: 100%;
+    margin-top: 160px;
+    margin-bottom: 20px;
+}
+.conteCarrousel{
+    width: 100%;
+    height: 655px;
+    overflow: hidden;
+}
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.carrusel-2{
+    width: 100%;
+    height: 100%;
+}
+.carrusel-2 > img{
+    width: 100%;
+    height: 100%;
+}
+.flechas{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+.flechas > i:hover {
+    cursor: pointer;
+}
+
+.guia{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 750px; /* Ajusta la posición vertical según tu preferencia */
+    left: 50%; /* Centra los puntos horizontalmente */
+    transform: translateX(-50%);
+}
+.guia > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: #cdcdcd;
+}
+
+.flechas > a > i{
+    color: white;
+}
+/*-------------------------------------------------------------CARRUSEL-----------------------------------------------------------------------*/
+.departamentos{
+    margin: 15px;
+    font-family: sans-serif;/*Cambiar el tipo de letra*/
+}
+p{
+    margin: 15px;
+}
+.subtitulo{
+    margin-top: 160px;
+    z-index: 2;
+}
+.hombres{
+    background: #00ffff;
+    border-radius: 15px;
+}
+.mujeres{
+    background: #ff00ff;
+    border-radius: 15px;
+}
+.jovenes{
+    background: #e00808;
+    border-radius: 15px;
+}
+.niños{
+    background: #ffa500;
+    border-radius: 15px;
+}
+#departamento{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.final{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #000000;
+}
+.fa-facebook{
+    margin-left: 20px;
+}
+.face{
+    color: #141ad2;
+}
+.fa-square-instagram{
+    margin-left: 20px;
+    color: #d4163c;
+}
+.instagram{
+    color: #d4163c;
+}
+.fa-whatsapp{
+    margin-left: 20px;
+}
+.fa-bounce{
+    margin-left: 20px;
+}
+/*----------------------------------------------------------------PASTORES---------------------------------------------------------------------------*/
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0000001a;
+}
+.Subtitulo{
+    text-align: center;
+}
+#flia{
+    margin: 20px;
+    width: 700px;
+    border-radius: 10px;
+    float: left;
+}
+#flia:hover{
+    transform: scale(0.8);
+}
+.flia{
+    padding: 20px;
+    margin-left: 800px;
+    margin-bottom: 650px;
+}
+#pastores{
+    margin: 20px;
+    width: 700px;
+    border-radius: 10px;
+    float: left;
+}
+#pastores:hover{
+    transform: scale(1.1);
+}
+.pastores{
+    padding: 20px;
+    margin-left: 800px;
+    margin-bottom: 420px;
+}
+.maps{
+    margin: 20px;
+}
+/*-----------------------------------------------------------------------------------EXTENCIONES---------------------------------------------------------*/
+.encargados{
+    margin: 15px;
+}
